@@ -115,9 +115,19 @@ After following the instructions in installation:
 --- 
 Title <br>
 ![screenshot](URL)
+![image](https://user-images.githubusercontent.com/75865873/172908466-49107f02-0fb6-464e-8311-724e9006da29.png)
+![image](https://user-images.githubusercontent.com/75865873/172909160-a0e07292-8953-45eb-83dc-8a458a223de9.png)
+![image](https://user-images.githubusercontent.com/75865873/172909026-b8eec491-3198-4df6-8e83-29f9044ba407.png)
+Mobile Version
+![image](https://user-images.githubusercontent.com/75865873/172910303-c8835112-eb93-45ab-a5ec-a6bc537694dd.png)
+![image](https://user-images.githubusercontent.com/75865873/172910211-4ef2093d-e555-44fd-9042-bc322c682d09.png)
+
+
 <br>
 Title <br>
 ![gif](URL)
+
+
 <br>
 
 ## Contributing 
