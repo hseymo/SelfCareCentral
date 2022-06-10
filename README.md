@@ -138,7 +138,7 @@ This project was completed as a group as 'project 3' for the University of Washi
 ## Questions?
 ---
 If you have any questions, please feel free to contact our team: 
-1. Project Manager: Haley Seymour | [Github](https://github.com/hseymo) | [email](mailto:haleycseymour@comcast.net)
-2. Git Administrator: Chris DeLaGarza | [Github](https://github.com/Interrubble) | [email](delagarzachris@icloud.com)
-3. Kalif Purce | [Github](https://github.com/Unconditionallove47) | [email](kpurcedesigns@gmail.com)
-4. Back-end/Front-end: Jaden Storey | [Github](https://github.com/eminss) | [email](jadenstorey@hotmail.com)
+1. Project Manager: Haley Seymour | [Github](https://github.com/hseymo) | [email](mailto:haleycseymour@comcast.net) haleycseymour@comcast.net
+2. Git Administrator: Chris DeLaGarza | [Github](https://github.com/Interrubble) | [email](mailto:delagarzachris@icloud.com) delagarzachris@icloud.com
+3. Kalif Purce | [Github](https://github.com/Unconditionallove47) | [email](mailto:kpurcedesigns@gmail.com) kpurcedesigns@gmail.com
+4. Back-end/Front-end: Jaden Storey | [Github](https://github.com/eminss) | [email](mailto:jadenstorey@hotmail.com) jadenstorey@hotmail.com
