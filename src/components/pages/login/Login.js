@@ -144,7 +144,7 @@ export default function Login(props) {
           )}
         </>
       ) : (
-        <h2>You are already logged in! Please visit your <Link className='pageLink' to='/dashboard'>Dashboard</Link>.</h2>
+        <h2>You are already logged in! <Link className='pageLink' to='/dashboard'>Visit your Dashboard</Link></h2>
       )}
     </div>
   );
