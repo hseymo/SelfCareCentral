@@ -196,9 +196,11 @@ export default function Sleep({ token, weekArray, goalObj, isLoggedIn }) {
             ) : (
                 <>
                     <h1>Sleep</h1>
-                    <h2>Your Goals</h2>
                     {goalObj.sleep_time != 0 && (
+                        <>
+                        <h2>Your Goals</h2>
                         <h4 className=''>Your nightly sleep goal is {goalObj.sleep_time} hours.</h4>
+                        </>
                     )}
                     <h2>Report Sleep Data</h2>
                     <form className='sleepForm'>

@@ -194,9 +194,11 @@ export default function Mindfulness({ token, weekArray, goalObj, isLoggedIn }) {
             ) : (
                 <>
                     <h1>Mindfulness</h1>
-                    <h2>Your Goals</h2>
                     {goalObj.mindfulness_frequency != 0 && (
+                        <>
+                        <h2>Your Goals</h2>
                         <h4 className=''>Your goal is to practice mindfulness {goalObj.mindfulness_frequency} times per week.</h4>
+                        </>
                     )}
                     <h2>Report Mindfulness Practice</h2>
                     <form className="mindfulForm">

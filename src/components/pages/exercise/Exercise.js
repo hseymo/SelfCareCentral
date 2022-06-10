@@ -217,13 +217,18 @@ export default function Fitness({ token, weekArray, goalObj, isLoggedIn }) {
             ) : (
             <>
             <h1>Fitness</h1>
+            {goalObj.fitness_time || goalObj.fitness_frequency ? (
+                <>
             <h2>Your Goals</h2>
-            {/* if goals exist, show them */}
             {goalObj.fitness_time != 0 && (
                 <h4 className=''>Your exercise time goal is {goalObj.fitness_time} minutes per week. </h4>
             )}
             {goalObj.fitness_frequency != 0 && (
                 <h4 className=''>Your exercise frequency goal is {goalObj.fitness_frequency} days per week. </h4>
+            )}
+            </>
+            ) : (
+                <></>
             )}
             <h2>Report Fitness Data</h2>
             <form className="fitnessForm">

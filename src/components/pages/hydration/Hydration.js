@@ -195,9 +195,11 @@ export default function Hydration({ token, weekArray, goalObj, isLoggedIn }) {
             ) : (
                 <>
                     <h1>Hydration</h1>
-                    <h2>Your Goals</h2>
                     {goalObj.hydration_oz != 0 && (
+                        <>
+                        <h2>Your Goals</h2>
                         <h4 className=''>Your daily water intake goal is {goalObj.hydration_oz} oz.</h4>
+                        </>
                     )}
                     <h2>Report Water Intake</h2>
                     <form className="waterForm">
