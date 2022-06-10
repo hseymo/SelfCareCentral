@@ -93,12 +93,14 @@ Front-end NPM Packages
 - React-scripts
 - React-spring
 - React-useinterval
+- React-use-measure
+- React-icons
 
 <br>
 
 ## Description
 ---
-This project is a app to help you with all your self care needs! Come visit our site as your one stop shop to manage your life style needs. Set goals for fitness, sleep and hydration. Report your metrics daily and view your progress! Additionally, you can update or delete as necessary. Let us compare your metrics to your goals so you can see how you are tracking and your progress over time! 
+This project is a app to help you with all your self care needs! Come visit our site as your one stop shop to manage your life style needs. Set goals for fitness, sleep and hydration. Report your metrics daily and view your progress! Additionally, you can update or delete as necessary. Let us compare your metrics to your goals so you can see how you are tracking and your progress over time! Full functionality across all devices, feel free to use our app on the go!
  <br><br>
 To view this project deployed, click [here](https://selfcarecentral.herokuapp.com/). <br><br>
 TO view the deployed server, click [here](https://selfcarecentral.herokuapp.com/).<br><br>
@@ -114,16 +116,16 @@ After following the instructions in installation:
 ### **Screenshots**
 --- 
 Home Page<br>
-![Homepage](https://user-images.githubusercontent.com/75865873/172924970-36be2b1c-2c93-443b-a606-8c58fe09908a.png)
+![Homepage](./public/images/Home.png)
 <br>
 Login/Dashboard <br>
-![LoginDashPro](https://user-images.githubusercontent.com/75865873/172924484-985f6080-fbb2-4692-ad26-80cc29228cbb.gif)
+![LoginDashPro](./public/images/homeLoginDashboard.gif)
  Fitness Page Fillout    <br>
-![FitnessFillout](https://user-images.githubusercontent.com/75865873/172924715-53b293fa-1557-4d37-b9ab-a097c300d884.gif)
+![FitnessFillout](./public/images/fitnessFillout.gif)
 Tab Run-through <br>
-![Tabs](https://user-images.githubusercontent.com/75865873/172925130-d4060547-2c2c-4742-99fd-fe27dae363b4.gif)
+![Tabs](./public/images/tabsScroll.gif)
 Mobile Dashboard <br>
-![Mobile Dashboard](https://user-images.githubusercontent.com/75865873/172925039-7063b461-349d-49af-90ab-3ad8bcee6fe9.png)
+![Mobile Dashboard](./public/images/mobileDashboard.png)
 
 <br>
 
@@ -139,4 +141,4 @@ If you have any questions, please feel free to contact our team:
 1. Project Manager: Haley Seymour | [Github](https://github.com/hseymo) | [email](mailto:haleycseymour@comcast.net)
 2. Git Administrator: Chris DeLaGarza | [Github](https://github.com/Interrubble) | [email](delagarzachris@icloud.com)
 3. Kalif Purce | [Github](https://github.com/Unconditionallove47) | [email](kpurcedesigns@gmail.com)
-4. Jaden | [Github](https://github.com/eminss) | [email]()
+4. Back-end/Front-end: Jaden Storey | [Github](https://github.com/eminss) | [email](jadenstorey@hotmail.com)
