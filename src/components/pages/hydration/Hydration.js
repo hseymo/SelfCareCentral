@@ -20,7 +20,6 @@ export default function Hydration({ token, weekArray, goalObj, isLoggedIn }) {
     const [anotherDate, setAnotherDate] = useState('');
     const [anotherWeek, setAnotherWeek] = useState('');
     const [error, setError] = useState('');
-
     const [todayObj, setTodayObj] = useState({
         date: '',
         water_oz: ''
@@ -179,13 +178,25 @@ export default function Hydration({ token, weekArray, goalObj, isLoggedIn }) {
     }
     // send update request with today object to update todays value 
     const sendToday = useCallback(async (e) => {
-        console.log(todayObj)
-        await API.updateHydrationEntry(token, todayObj)
-        .then((res) => {
-            setUpdateReq(true)
-        })
-        .catch((err) => console.log(err))
-        setUpdateReq(false)
+        e.preventDefault()
+        console.log(todayObj.water_oz)
+        console.log(todayOz)
+        if (todayOz == 0) {
+            await API.postHydrationEntry(token, todayObj)
+            .then((res) => {
+                setUpdateReq(true)
+            })
+            .catch((err) => console.log(err))
+            setUpdateReq(false)
+        } else {
+            await API.updateHydrationEntry(token, todayObj)
+            .then((res) => {
+                console.log(todayObj)
+                setUpdateReq(true)
+            })
+            .catch((err) => console.log(err))
+            setUpdateReq(false)
+        }
     });
 
     return (
